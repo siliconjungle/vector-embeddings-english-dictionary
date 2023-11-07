@@ -53,3 +53,8 @@ There are a series of embeddings files in `/embeddings` which are in order & con
 In the `/metadata` folder is noun, verb, adjective, adverbs & the word's lookup. Not all words are known by wordpos.
 
 I think some interesting things can be done by filtering words based on their properties.
+
+## Classification
+
+knn can be used for classification.
+[knn](https://www.npmjs.com/package/ml-knn)
