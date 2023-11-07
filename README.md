@@ -51,3 +51,5 @@ There are a series of embeddings files in `/embeddings` which are in order & con
 [wordpos](https://github.com/moos/wordpos) can be used to attach metadata such as `noun, verb, adjective, adverb, synonyms, definition` etc.
 
 In the `/metadata` folder is noun, verb, adjective, adverbs & the word's lookup.
+
+I think some interesting things can be done by filtering words based on their properties.
