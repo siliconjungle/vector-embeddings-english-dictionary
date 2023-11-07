@@ -1,6 +1,6 @@
 # vector-embeddings-english-dictionary
 
-Vector embeddings for each word in `https://www.npmjs.com/package/word-list`.
+Vector embeddings for each word in [word list](https://www.npmjs.com/package/word-list).
 
 It uses `text-embedding-ada-002` to do the embeddings.
 
