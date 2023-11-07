@@ -2,7 +2,7 @@
 
 Vector embeddings for each word in [word list](https://www.npmjs.com/package/word-list).
 
-It uses `text-embedding-ada-002` to do the embeddings.
+It uses `text-embedding-ada-002` from [Open AI](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings) to do the embeddings.
 
 You can use a Vector DB like [chroma](https://www.trychroma.com/) to handle search.
 I would not recommend [vectra](https://github.com/Stevenic/vectra) for such a large embeddings list as it must all be in memory at once.
