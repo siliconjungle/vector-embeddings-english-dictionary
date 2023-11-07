@@ -4,6 +4,8 @@ Vector embeddings for each word in [word list](https://www.npmjs.com/package/wor
 
 It uses `text-embedding-ada-002` from [Open AI](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings) to do the embeddings.
 
+## Comparing embeddings
+
 You can use a Vector DB like [chroma](https://www.trychroma.com/) to handle search.
 
 I would not recommend [vectra](https://github.com/Stevenic/vectra) for such a large embeddings list as it must all be in memory at once.
@@ -16,11 +18,17 @@ For more efficient comparisons you can use algorithms like these:
 
 [hnswlib-wasm](https://www.npmjs.com/package/hnswlib-wasm)
 
+## Visualisation
+
 For visualising parts of the space you can use t-sne or related algorithms, e.g.
 
 [t-sne js](https://www.npmjs.com/package/@aidanconnelly/tsnejs).
 
+## Interpolation
+
 You can interpolate between different embedding spaces to find words which are *between* other words. You can get the mean of embedding spaces to try to isolate features.
+
+## Reverse embeddings
 
 There are also implementations of reversing embedding spaces in python:
 
@@ -37,3 +45,7 @@ There are a series of embeddings files in `/embeddings` which are in order & con
   { word: '', embedding: [] },
 ]
 ```
+
+## Additional metadata
+
+[wordpos](https://github.com/moos/wordpos) can be used to attach metadata such as `noun, verb, adjective, adverb, synonyms, definition` etc.
