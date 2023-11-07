@@ -27,3 +27,13 @@ There are also implementations of reversing embedding spaces in python:
 [vec2text](https://github.com/jxmorris12/vec2text)
 
 [Contra](https://colab.research.google.com/drive/1CF5Lr1bxoAFC_IPX5I0azu4X8UDz_zp-?usp=sharing#scrollTo=c74eDH1WG_nS)
+
+## Data structure
+
+There are a series of embeddings files in `/embeddings` which are in order & contain an array of objects in the following format:
+
+```
+[
+  { word: '', embedding: [] },
+]
+```
