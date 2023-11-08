@@ -4,6 +4,10 @@ Vector embeddings for each word in [word list](https://www.npmjs.com/package/wor
 
 It uses `text-embedding-ada-002` from [Open AI](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings) to do the embeddings.
 
+## `lookup.json`
+
+`lookup.json` is a simple mapping from word to `filename` and `index`. This can be useful if you want to be able to compare an embedding with specific words.
+
 ## Comparing embeddings
 
 You can use a Vector DB like [chroma](https://www.trychroma.com/) to handle search.
