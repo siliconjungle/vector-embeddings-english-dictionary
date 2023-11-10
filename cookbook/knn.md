@@ -1,5 +1,5 @@
 # K-nearest neighbors
-K-nearest neighbours works pretty well at classification on this data set.
+K-nearest neighbours works pretty well as supervised classification on this data set.
 
 e.g. 
 ```
