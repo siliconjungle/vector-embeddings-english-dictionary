@@ -13,4 +13,6 @@ Ok so - adding vectors in directions also doesn't change anything.
 
 Another method of interpolation:
 
-What if instead of *blending between* the two vectors smoothly, we transitioned by selecting random elements in the vector to switch over to the next vector? Would this provide better results? Would it find words that aren't currently the two?
+~~What if instead of *blending between* the two vectors smoothly, we transitioned by selecting random elements in the vector to switch over to the next vector? Would this provide better results? Would it find words that aren't currently the two?~~
+
+It did not provide better results.
